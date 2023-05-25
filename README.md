@@ -7,28 +7,32 @@ Author: Ziad Ghauch
 
 ## Installation
 
-+ Method 1: Using the setup.py File: 
+**Method 1**
 
-Navigate to the package directory, then
+Using the setup.py file, navigate to the package directory, then type
 ```
 python setup.py install
 ```
 
-+ Method 2: Install from GitHub Repository:
+**Method 2**
 
+Alternatively, you can install this package directly from the GitHub repository, following
 ```
 pip install git+https://github.com/ZGGhauch/optTEST
 ```
 
-+ Method 3: Download 
+**Method 3**
 
+You can also download the compressed version of the package, using
 ```
 wget git+https://github.com/ZGGhauch/optTEST/archive/master.zip
 unzip master.zip
 cd optTEST
 ```
 
-Execute the following code to run comprehensive unit testing on all optimization functions
+**Testing**
+
+To run a comprehensive unit testing scheme on each optimization function, execute the following code
 ```
 python -m unittest unit_tests.py
 ```
